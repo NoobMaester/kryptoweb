@@ -88,6 +88,7 @@
   align-items: center;
   background: #121212;
   padding: 3rem;
+  max-height: 100vh;
 }
 .upper-content{
   display: flex;
@@ -146,6 +147,7 @@
 .feat{
   background: #2b2b2b;
   padding: 5rem 3rem;
+  max-height: 100vh;
 }
 .feat h3{
   color: #8ae288;
@@ -158,6 +160,10 @@
   margin: 2rem;
 }
 .content1{
+  display: flex;
+  align-items: center;
+}
+.icon{
   display: flex;
   align-items: center;
 }
@@ -176,6 +182,7 @@
   font-size: 18px;
   line-height: 22px;
   color: #41b48a;
+  margin-left: 1rem;
 }
 .gridd p{
   font-family: 'Roboto';
@@ -184,4 +191,128 @@
   font-size: 14px;
   line-height: 22px;
   color: #ffffff;
+  margin-left: 2rem;
+}
+
+
+/*PORTFOLIO*/
+.portfolio{
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #121212;
+  padding: 5rem 3rem;
+}
+.portfolio h3{
+  color: #8ae288;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  font-family: 'Inter';
+  margin: 2rem;
+}
+.portfolio p{
+  color: #ffffff;
+  font-weight: 500;
+  font-family: 'Inter';
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  margin-bottom: 3rem;
+  width: 795px;
+}
+.slide img{
+  margin: 1rem;
+  border-radius: 0.5rem;
+}
+
+
+/*PARTNER*/
+.partner{
+  background: #2b2b2b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.partner h3{
+  color: #8ae288;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  font-family: 'Inter';
+  margin: 2rem;
+}
+.partner img{
+  margin-bottom: 3rem;
+}
+.contact{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #555555;
+  border-radius: 39px;
+  box-shadow: #ffffff 0 -1px 10px 0;
+  width: 968px;
+  margin: 3rem;
+  padding: 3rem;
+}
+.form h2{
+  color: #8ae288;
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: 700;
+  font-family: 'Inter';
+  margin-bottom: 1rem;
+}
+.form p{
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  width: 578px;
+}
+.form input{
+  width: 447px;
+  height: 50px;
+  border: 1px solid #8ae288;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background: #555555;
+  text-align: start;
+  padding: 1rem;
+  font-family: 'Inter';
+}
+.btn-primo{
+  width: 135px;
+  height: 50px;
+  padding: 1rem;
+  background: #79c077;
+  border: 1px solid #79c077;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.avatar img{
+  margin: 0 1rem;
+}
+
+
+/*FOOTER*/
+.footer{
+  background: #121212;
+}
+
+
+/*Media Qz*/
+@media (max-width: 768px){
+  
 }

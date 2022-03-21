@@ -6,7 +6,7 @@ const Information = () => {
     <div className='info'>
         <div className='content'>
             <h3>
-                "Investing has the best results when you learn from nature"
+              "Investing has the best results when you learn from nature"
             </h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias dolores magni consectetur dignissimos perferendis quo impedit? Repudiandae quasi ex minima suscipit ut.</p>
 
