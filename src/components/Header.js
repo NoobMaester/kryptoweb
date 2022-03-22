@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import logo from '../assets/eth-logo-1.png';
-import {FaBars, FaTimes} from 'react-icons/fa';
+import {FaBars} from 'react-icons/fa';
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -29,10 +29,9 @@ const Header = () => {
         <a href="/#" className='btn'>Login</a>
         <a href="/#" className='btn'>Signup</a>
         
-        <FaTimes className='close-menu'/>
       </div>}
     </div>
   )
 }
 
-export default Header
+export default Header;

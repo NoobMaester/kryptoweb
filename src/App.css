@@ -26,8 +26,15 @@
   width: 89px;
   height: 80px;
 }
-.open-menu, .close-menu{
-  display: none;
+.up{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.open-menu{
+  display: block;
+  font-size: 30px;
 }
 .nav a{
   font-family: 'Roboto';
@@ -82,6 +89,10 @@
   height: 47px;
   border: 1px solid #79c077;
   cursor: pointer;
+}
+.info img{
+  width: 100%;
+  margin-top: 2rem;
 }
 
 
@@ -143,6 +154,10 @@
   font-weight: 100;
   line-height: 20px;
   letter-spacing: 0.2px;
+}
+.chatbot img{
+  width: 100%;
+  margin-top: 1rem;
 }
 
 
@@ -231,6 +246,7 @@
 .slide img{
   margin: 1rem;
   border-radius: 0.5rem;
+  width: auto;
 }
 
 
@@ -254,6 +270,7 @@
 }
 .partner img{
   margin-bottom: 3rem;
+  width: auto;
 }
 .contact{
   display: flex;
@@ -306,6 +323,7 @@
 }
 .avatar img{
   margin: 0 1rem;
+  width: auto;
 }
 
 
