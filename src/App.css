@@ -438,9 +438,12 @@
   }
   .stats{
     width: 100%;
+    padding: 0.3rem;
   }
+
   .chatbot img{
     width: 100%;
+    margin-top: 1rem;
   }
 
 
@@ -487,7 +490,7 @@
     margin: auto;
   }
   .avatar img{
-    margin: 2rem 1rem;
+    margin: 2rem 0;
     width: auto;
   }
   
@@ -522,5 +525,8 @@
   }
   .social{
     margin-left: 2rem;
+  }
+  .all{
+    margin-right: 0;
   }
 }
