@@ -432,6 +432,7 @@
     right: 0;
     width: 100vw;
     border-top: 1px solid #8ae288;
+    height: 100vh;
   }
   .info{
     flex-direction: column;
