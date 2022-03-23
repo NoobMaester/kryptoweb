@@ -10,7 +10,7 @@ const NavMobile = () => {
  
     return (
         <nav className='nav-mobile'>
-            {open ? <FaTimes className='open-menu' size='36px' onClick={()=> setOpen(!open)}/> : <FaBars className='open-menu' size='36px' onClick={()=> setOpen(!open)}/>}
+            {open ? <FaTimes className='open-menu' size='24px' onClick={()=> setOpen(!open)}/> : <FaBars className='open-menu' size='24px' onClick={()=> setOpen(!open)}/>}
 
             {open && <NavLinks isMobile={true} closeMenu={closeMenu} />}
         </nav>
