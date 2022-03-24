@@ -11,7 +11,8 @@ const NavLinks = ({isMobile, closeMenu}) => {
         <motion.li
         initial = {animateFrom}
         animate = {animateTo} 
-        transition={{delay:0.05}}
+        transition={{delay:0.05, type:'spring', stiffness: 300}}
+        whileHover={{scale:1.2, originX:0, color:'#8ae288'}}
         onClick={() => isMobile && closeMenu() }>
             <a href="/#">Home</a>
         </motion.li>
@@ -19,7 +20,8 @@ const NavLinks = ({isMobile, closeMenu}) => {
         <motion.li 
         initial = {animateFrom}
         animate = {animateTo}
-        transition={{delay:0.15}}
+        transition={{delay:0.15, type:'spring', stiffness: 300}}
+        whileHover={{scale:1.2, originX:0, color:'#8ae288'}}
         onClick={() => isMobile && closeMenu() }>
             <a href="/#">About</a>
         </motion.li>
@@ -27,14 +29,16 @@ const NavLinks = ({isMobile, closeMenu}) => {
         <motion.li
         initial = {animateFrom}
         animate = {animateTo}
-        transition={{delay:0.25}}
-         onClick={() => isMobile && closeMenu() }>
+        transition={{delay:0.25, type:'spring', stiffness: 300}}
+        whileHover={{scale:1.2, originX:0, color:'#8ae288'}}
+        onClick={() => isMobile && closeMenu() }>
             <a href="/#">Service</a></motion.li>
     
         <motion.li 
         initial = {animateFrom}
         animate = {animateTo}
-        transition={{delay:0.35}}
+        transition={{delay:0.35, type:'spring', stiffness: 300}}
+        whileHover={{scale:1.2, originX:0, color:'#8ae288'}}
         onClick={() => isMobile && closeMenu() }>
             <a href="/#">Token</a>
         </motion.li>
@@ -42,7 +46,8 @@ const NavLinks = ({isMobile, closeMenu}) => {
         <motion.li 
         initial = {animateFrom}
         animate = {animateTo}
-        transition={{delay:0.45}}
+        transition={{delay:0.45, type:'spring', stiffness: 300}}
+        whileHover={{scale:1.2, originX:0, color:'#8ae288'}}
         onClick={() => isMobile && closeMenu() }>
             <a href="/#">Dashboard</a>
         </motion.li>
@@ -50,7 +55,8 @@ const NavLinks = ({isMobile, closeMenu}) => {
         <motion.li 
         initial = {animateFrom}
         animate = {animateTo}
-        transition={{delay:0.55}}
+        transition={{delay:0.55, type:'spring', stiffness: 300}}
+        whileHover={{scale:1.2, originX:0, color:'#8ae288'}}
         onClick={() => isMobile && closeMenu() }>
             <a href="/#">Contact</a>
         </motion.li>
@@ -58,7 +64,8 @@ const NavLinks = ({isMobile, closeMenu}) => {
         <motion.li 
         initial = {animateFrom}
         animate = {animateTo}
-        transition={{delay:0.65}}
+        transition={{delay:0.65, type:'spring', stiffness: 300}}
+        whileHover={{scale:1.2, originX:0, color:'#8ae288'}}
         onClick={() => isMobile && closeMenu() }>
             <a href="/#" className='btn'>Login</a>
         </motion.li>
@@ -66,7 +73,8 @@ const NavLinks = ({isMobile, closeMenu}) => {
         <motion.li 
         initial = {animateFrom}
         animate = {animateTo}
-        transition={{delay:0.70}}
+        transition={{delay:0.70, type:'spring', stiffness: 300}}
+        whileHover={{scale:1.2, originX:0, color:'#8ae288'}}
         onClick={() => isMobile && closeMenu() }>
             <a href="/#" className='btn'>Signup</a>
         </motion.li>
